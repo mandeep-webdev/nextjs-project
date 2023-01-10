@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 
-function DetailPage() {
+function EventDetailPage() {
   const router = useRouter();
   console.log(router.query);
   return (
@@ -11,4 +11,4 @@ function DetailPage() {
   );
 }
 
-export default DetailPage;
+export default EventDetailPage;

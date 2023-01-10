@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 
-function FilteredEvent() {
+function FilteredEventsPage() {
   const router = useRouter();
   console.log(router.query);
   return (
@@ -11,4 +11,4 @@ function FilteredEvent() {
   );
 }
 
-export default FilteredEvent;
+export default FilteredEventsPage;
