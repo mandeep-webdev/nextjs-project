@@ -5,7 +5,7 @@ function HomePage() {
   const featuredEvents = getFeaturedEvents();
   return (
     <div>
-      <EventList featuredEvents={featuredEvents} />
+      <EventList items={featuredEvents} />
     </div>
   );
 }
